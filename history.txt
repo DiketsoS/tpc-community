@@ -1,0 +1,38 @@
+  264  mkdir tpc-community
+  265  git clone https://github.com/DiketsoS/tpc-community.git
+  266  cd tpc-community
+  267  mkdir Automation_scripts
+  268  cd Automation_scripts
+  269  touch deploy.sh
+  270  nano deploy.sh
+  271  ./deploy.sh
+  272  cd ..
+  273  mkdir Documetation
+  274  cd Documentation
+  275  mkdir tpc-community
+  276  git clone https://github.com/DiketsoS/tpc-community.git
+  277  cd tpc-community
+  278  mkdir Automation_scripts
+  279  cd Automation_scripts
+  280  touch deploy.sh
+  281  nano deploy.sh
+  282  ./deploy.sh
+  283  chmod +x deploy.sh
+  284  ./deploy.sh
+  285  cd ..
+  286  mkdir Documentation
+  287  cd Documentation
+  288  touch style_guide.txt
+  289  git init
+  290  git add .
+  291  git commit -mdeploy-script
+  292  git remote add origin https://github.com/DiketsoS/tpc-community.git
+  293  git push origin main
+  294  code .
+  295  cd tpc-community
+  296  ls
+  297  git init
+  298  git add .
+  299  git commit -m First commit
+  300  git remote add origin https://github.com/DiketsoS/tpc-community.git
+  301  git push
